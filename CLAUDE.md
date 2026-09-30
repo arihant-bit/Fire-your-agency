@@ -31,7 +31,7 @@ Build inlines CSS, config.js + main.js, the favicon and the 3 photos in `src/ass
 
 ## Settings (src/config.js)
 
-`price` 99, `mrp` 999, `seats` 47, `date`/`dateShort` ("" hides the date everywhere), `time`, `calendarStart`/`calendarEnd` (Google Calendar button on thank-you, format YYYYMMDDTHHMMSS IST), `checkoutUrl` https://rzp.io/rzp/4AIfdE6I (Razorpay), `whatsappGroupUrl` (STILL A PLACEHOLDER — thank-you page's main button), `email`, `whatsappNumber` (placeholder), `privacyUrl`/`termsUrl`/`refundUrl`, `refundText` (placeholder), `metaPixelId` ("" = off; fires PageView, InitiateCheckout on CTA click, Purchase once per session on thank-you), `passUtmToCheckout`.
+`price` 99, `mrp` 999, `seats` 47, `date`/`dateShort` ("" hides the date everywhere), `time`, `calendarStart`/`calendarEnd` (Google Calendar button on thank-you, format YYYYMMDDTHHMMSS IST), `checkoutUrl` https://rzp.io/rzp/4AIfdE6I (Razorpay), `whatsappGroupUrl` (WhatsApp community invite — thank-you page's main button), `email`, `whatsappNumber` (916264600023), `privacyUrl`/`termsUrl`/`refundUrl`, `refundText` (placeholder), `metaPixelId` ("" = off; fires PageView, InitiateCheckout on CTA click, Purchase once per session on thank-you), `passUtmToCheckout`.
 
 Elements with `data-cfg="key"` get their text from config; `data-link="checkout|email|whatsapp|whatsappGroup|privacy|terms|refund"` get hrefs; `data-date` wrappers are removed when `date` is empty.
 
@@ -45,7 +45,7 @@ Cream #FFFDF8 ground, ink #12161F, navy #0E1B33, muted #5A6472, orange #FF5A1F (
 
 ## Known to-dos
 
-- whatsappGroupUrl, whatsappNumber, refundText, policy pages still placeholders.
+- refundText, policy pages (/privacy, /terms, /refund) still placeholders; metaPixelId empty.
 - GAIL India and TrulyMadly logos not added yet (user will supply).
 - D2C logos depend on d2c.fireyouragency.in; better to copy them into logos/.
 - og-image (assets/og-image.jpg for link previews) not created yet.
