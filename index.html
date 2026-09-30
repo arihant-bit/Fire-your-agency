@@ -15,22 +15,22 @@ window.FYA_CONFIG = {
   seats: "47",
   date: "Sunday, 11 Oct",                  // e.g. "Sunday, 12 Oct"  ("" hides the date everywhere)
   dateShort: "11 Oct",             // e.g. "12 Oct" — used in the mobile sticky bar
-  time: "7 PM IST",
+  time: "4 PM IST",
 
   // For the "Add to Google Calendar" button on the thank-you page.
   // Format: YYYYMMDDTHHMMSS in IST. Leave "" to hide the button.
-  calendarStart: "20261011T190000",         // e.g. "20261012T190000"
-  calendarEnd: "20261011T220000",           // e.g. "20261012T220000"
+  calendarStart: "20261011T160000",         // e.g. "20261012T190000"
+  calendarEnd: "20261011T190000",           // e.g. "20261012T220000"
 
   // ---- Links ----
-  checkoutUrl: "https://rzp.io/rzp/4AIfdE6I",   // Razorpay payment page
+  checkoutUrl: "https://rzp.io/rzp/dxMDNFoZ",   // Razorpay payment page
   whatsappGroupUrl: "https://chat.whatsapp.com/DL0folq4rIrHE49rzZIgvX", // shown on thank-you page
   email: "hello@perfomitymedia.com",
   whatsappNumber: "916264600023",                     // country code + number, no "+" or spaces
-  privacyUrl: "/privacy",
-  termsUrl: "/terms",
-  refundUrl: "/refund",
-  refundText: "[REFUND POLICY]",                       // answer shown in the FAQ
+  privacyUrl: "",
+  termsUrl: "",
+  refundUrl: "",
+  refundText: "",                                     // answer shown in the FAQ
 
   // ---- Tracking (optional) ----
   metaPixelId: "889741520669002",           // e.g. "123456789012345" — leave "" to disable
@@ -57,10 +57,10 @@ window.FYA_CONFIG = {
 <!-- 1. TICKER -->
 <div class="ticker" aria-label="Workshop details">
   <div class="ticker__track">
-    <span class="ticker__item">LIVE ON ZOOM<span data-date> · <span data-cfg="date">[DAY, DATE]</span></span> · <span data-cfg="time">7 PM IST</span> · 3 HOURS · BUILD WITH ME LIVE · <b>₹<span data-cfg="price">99</span></b> · ONLY <span data-cfg="seats">47</span> SEATS · NO AGENCY. NO DESIGNER. JUST AI ·&nbsp;</span>
-    <span class="ticker__item" aria-hidden="true">LIVE ON ZOOM<span data-date> · <span data-cfg="date">[DAY, DATE]</span></span> · <span data-cfg="time">7 PM IST</span> · 3 HOURS · BUILD WITH ME LIVE · <b>₹<span data-cfg="price">99</span></b> · ONLY <span data-cfg="seats">47</span> SEATS · NO AGENCY. NO DESIGNER. JUST AI ·&nbsp;</span>
-    <span class="ticker__item" aria-hidden="true">LIVE ON ZOOM<span data-date> · <span data-cfg="date">[DAY, DATE]</span></span> · <span data-cfg="time">7 PM IST</span> · 3 HOURS · BUILD WITH ME LIVE · <b>₹<span data-cfg="price">99</span></b> · ONLY <span data-cfg="seats">47</span> SEATS · NO AGENCY. NO DESIGNER. JUST AI ·&nbsp;</span>
-    <span class="ticker__item" aria-hidden="true">LIVE ON ZOOM<span data-date> · <span data-cfg="date">[DAY, DATE]</span></span> · <span data-cfg="time">7 PM IST</span> · 3 HOURS · BUILD WITH ME LIVE · <b>₹<span data-cfg="price">99</span></b> · ONLY <span data-cfg="seats">47</span> SEATS · NO AGENCY. NO DESIGNER. JUST AI ·&nbsp;</span>
+    <span class="ticker__item">LIVE ON ZOOM<span data-date> · <span data-cfg="date">[DAY, DATE]</span></span> · <span data-cfg="time">4 PM IST</span> · 3 HOURS · BUILD WITH ME LIVE · <b>₹<span data-cfg="price">99</span></b> · ONLY <span data-cfg="seats">47</span> SEATS · NO AGENCY. NO DESIGNER. JUST AI ·&nbsp;</span>
+    <span class="ticker__item" aria-hidden="true">LIVE ON ZOOM<span data-date> · <span data-cfg="date">[DAY, DATE]</span></span> · <span data-cfg="time">4 PM IST</span> · 3 HOURS · BUILD WITH ME LIVE · <b>₹<span data-cfg="price">99</span></b> · ONLY <span data-cfg="seats">47</span> SEATS · NO AGENCY. NO DESIGNER. JUST AI ·&nbsp;</span>
+    <span class="ticker__item" aria-hidden="true">LIVE ON ZOOM<span data-date> · <span data-cfg="date">[DAY, DATE]</span></span> · <span data-cfg="time">4 PM IST</span> · 3 HOURS · BUILD WITH ME LIVE · <b>₹<span data-cfg="price">99</span></b> · ONLY <span data-cfg="seats">47</span> SEATS · NO AGENCY. NO DESIGNER. JUST AI ·&nbsp;</span>
+    <span class="ticker__item" aria-hidden="true">LIVE ON ZOOM<span data-date> · <span data-cfg="date">[DAY, DATE]</span></span> · <span data-cfg="time">4 PM IST</span> · 3 HOURS · BUILD WITH ME LIVE · <b>₹<span data-cfg="price">99</span></b> · ONLY <span data-cfg="seats">47</span> SEATS · NO AGENCY. NO DESIGNER. JUST AI ·&nbsp;</span>
   </div>
 </div>
 
@@ -77,7 +77,7 @@ window.FYA_CONFIG = {
     </div>
   </div>
   <div class="ticket">
-    <span class="ticket__meta">LIVE ON ZOOM<span data-date> · <span data-cfg="date">[DAY, DATE]</span></span> · <span data-cfg="time">7 PM IST</span></span>
+    <span class="ticket__meta">LIVE ON ZOOM<span data-date> · <span data-cfg="date">[DAY, DATE]</span></span> · <span data-cfg="time">4 PM IST</span></span>
     <div class="price">
       <s class="price__old">₹<span data-cfg="mrp">999</span></s>
       <span class="price__new">₹<span data-cfg="price">99</span></span>
@@ -291,7 +291,7 @@ window.FYA_CONFIG = {
       <li><span class="step__dot">1</span><div><strong>Pay ₹<span data-cfg="price">99</span></strong><span>30 seconds.</span></div></li>
       <li><span class="step__dot">2</span><div><strong>Join the WhatsApp group</strong><span>Link right after payment.</span></div></li>
       <li><span class="step__dot">3</span><div><strong>Get your Zoom link</strong><span>WhatsApp + email, with reminders.</span></div></li>
-      <li><span class="step__dot step__dot--navy">4</span><div><strong>Show up with your laptop</strong><span data-date><span data-cfg="date">[DAY, DATE]</span>, <span data-cfg="time">7 PM IST</span>.</span></div></li>
+      <li><span class="step__dot step__dot--navy">4</span><div><strong>Show up with your laptop</strong><span data-date><span data-cfg="date">[DAY, DATE]</span>, <span data-cfg="time">4 PM IST</span>.</span></div></li>
     </ol>
   </div>
 </section>
@@ -357,7 +357,6 @@ window.FYA_CONFIG = {
     <details><summary>Is it recorded?</summary><p>No. It's a live build session. Bonuses go to people who stay till the end.</p></details>
     <details><summary>What language?</summary><p>Hinglish.</p></details>
     <details><summary>Is there a pitch?</summary><p>Yes, at the end, clearly marked. Everything before it is yours.</p></details>
-    <details><summary>Refund?</summary><p data-cfg="refundText">[REFUND POLICY]</p></details>
     <details><summary>Is my payment secure?</summary><p>Yes, processed by Razorpay. We never see your card or UPI details.</p></details>
   </div>
 </section>
@@ -372,7 +371,7 @@ window.FYA_CONFIG = {
       <span class="price__new">₹<span data-cfg="price">99</span></span>
     </div>
     <a class="cta cta--final" data-link="checkout" href="#">RESERVE MY SEAT →</a>
-    <p class="final__meta">Only <span data-cfg="seats">47</span> seats<span data-date> · <span data-cfg="date">[DAY, DATE]</span>, <span data-cfg="time">7 PM IST</span></span> · <svg class="lock" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg> Razorpay secure</p>
+    <p class="final__meta">Only <span data-cfg="seats">47</span> seats<span data-date> · <span data-cfg="date">[DAY, DATE]</span>, <span data-cfg="time">4 PM IST</span></span> · <svg class="lock" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg> Razorpay secure</p>
   </div>
 </section>
 

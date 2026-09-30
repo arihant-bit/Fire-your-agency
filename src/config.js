@@ -10,22 +10,22 @@ window.FYA_CONFIG = {
   seats: "47",
   date: "Sunday, 11 Oct",                  // e.g. "Sunday, 12 Oct"  ("" hides the date everywhere)
   dateShort: "11 Oct",             // e.g. "12 Oct" — used in the mobile sticky bar
-  time: "7 PM IST",
+  time: "4 PM IST",
 
   // For the "Add to Google Calendar" button on the thank-you page.
   // Format: YYYYMMDDTHHMMSS in IST. Leave "" to hide the button.
-  calendarStart: "20261011T190000",         // e.g. "20261012T190000"
-  calendarEnd: "20261011T220000",           // e.g. "20261012T220000"
+  calendarStart: "20261011T160000",         // e.g. "20261012T190000"
+  calendarEnd: "20261011T190000",           // e.g. "20261012T220000"
 
   // ---- Links ----
-  checkoutUrl: "https://rzp.io/rzp/4AIfdE6I",   // Razorpay payment page
+  checkoutUrl: "https://rzp.io/rzp/dxMDNFoZ",   // Razorpay payment page
   whatsappGroupUrl: "https://chat.whatsapp.com/DL0folq4rIrHE49rzZIgvX", // shown on thank-you page
   email: "hello@perfomitymedia.com",
   whatsappNumber: "916264600023",                     // country code + number, no "+" or spaces
-  privacyUrl: "/privacy",
-  termsUrl: "/terms",
-  refundUrl: "/refund",
-  refundText: "[REFUND POLICY]",                       // answer shown in the FAQ
+  privacyUrl: "",
+  termsUrl: "",
+  refundUrl: "",
+  refundText: "",                                     // answer shown in the FAQ
 
   // ---- Tracking (optional) ----
   metaPixelId: "889741520669002",           // e.g. "123456789012345" — leave "" to disable
